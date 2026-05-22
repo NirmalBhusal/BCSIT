@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>BCSIT Complete Notes & Question Papers | Pokhara University | Nirmal Bhusal</title>
+  
+  <!-- Primary SEO Meta Tags -->
+  <meta name="description" content="Ultimate BCSIT resource hub for Pokhara University students. Access 1st to 8th semester unit-wise notes, important questions, previous year solved papers, syllabus PDFs, and exam notices. #1 BCSIT study portal in Nepal.">
+  <meta name="keywords" content="BCSIT notes, Pokhara University BCSIT, BCSIT question papers, BCSIT syllabus, BCSIT 1st semester notes, BCSIT 8th semester project, BCSIT Nepal, unit wise notes BCSIT, BCSIT important questions, PU BCSIT resources, Nirmal Bhusal BCSIT">
+  <meta name="author" content="Nirmal Bhusal">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="googlebot" content="index, follow">
+  <link rel="canonical" href="https://nirmalbhusal.com.np/bcsit-hub">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="BCSIT Complete Resource Portal | Pokhara University">
+  <meta property="og:description" content="Free access to semester-wise notes, previous year papers, important questions, and syllabus for BCSIT.">
+  <meta property="og:image" content="https://nirmalbhusal.com.np/assets/bcsit-og-image.jpg">
+  <meta property="og:url" content="https://nirmalbhusal.com.np/bcsit-hub">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BCSIT Hub - Pokhara University Notes & Papers">
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f7fc;
+      color: #1e2a3e;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #0a2a38, #115a73);
+      color: white;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .header-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo h1 {
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .logo p {
+      font-size: 0.75rem;
+      opacity: 0.9;
+    }
+    .domain-badge {
+      background: #f9b43a;
+      color: #0a2a38;
+      font-size: 0.65rem;
+      padding: 2px 8px;
+      border-radius: 40px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.3rem 0;
+      border-bottom: 2px solid transparent;
+      transition: 0.2s;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      border-bottom-color: #f9b43a;
+    }
+
+    /* Hero Section with Proper Background Image */
+    .hero {
+      position: relative;
+      background-image: url('images/Pokhara-University-1732287662.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      text-align: center;
+      padding: 3.5rem 0;
+      margin-bottom: 2rem;
+      isolation: isolate;
+    }
+    
+    /* Dark overlay for better text readability */
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(10, 42, 56, 0.75), rgba(17, 90, 115, 0.8));
+      z-index: 0;
+    }
+    
+    .hero .container {
+      position: relative;
+      z-index: 2;
+    }
+    
+    .hero h2 {
+      font-size: 2rem;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+      margin-bottom: 0.5rem;
+    }
+    
+    .hero p {
+      font-size: 1.1rem;
+      color: #f0f9ff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+      margin: 1rem 0;
+    }
+    
+    .hero .badge {
+      background: #f9b43a;
+      color: #0a2a38;
+      display: inline-block;
+      padding: 0.3rem 1.2rem;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      margin-top: 10px;
+      font-weight: bold;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    
+    .hero img {
+      margin: 15px 0;
+      filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.3));
+      background: rgba(255,255,255,0.1);
+      border-radius: 50%;
+      padding: 5px;
+    }
+
+    /* Support Section */
+    .support-section {
+      background: linear-gradient(145deg, #ffffff, #f5f9ff);
+      border-radius: 1.5rem;
+      padding: 1.8rem;
+      margin: 2rem 0;
+      box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+      border: 1px solid #d9e6f2;
+      text-align: center;
+    }
+    .support-flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .esewa-card {
+      background: linear-gradient(135deg, #1e5a3a, #0f3b24);
+      border-radius: 1.5rem;
+      padding: 1.5rem;
+      text-align: center;
+      color: white;
+      max-width: 300px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    .esewa-card:hover {
+      transform: translateY(-5px);
+    }
+    .qr-placeholder img {
+      border-radius: 12px;
+      background: white;
+      padding: 8px;
+      max-width: 100%;
+      height: auto;
+    }
+    .esewa-id {
+      background: #ffd966;
+      color: #1e3a2f;
+      padding: 8px 12px;
+      border-radius: 40px;
+      font-weight: bold;
+      margin-top: 12px;
+      display: inline-block;
+    }
+    .support-message {
+      flex: 1;
+      min-width: 200px;
+      text-align: left;
+      background: #fff6e5;
+      padding: 1.2rem;
+      border-radius: 1.2rem;
+      border-left: 5px solid #f9b43a;
+    }
+    .btn-donate {
+      background: #1f6e8c;
+      border: none;
+      color: white;
+      padding: 8px 20px;
+      border-radius: 40px;
+      font-weight: bold;
+      margin-top: 12px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .btn-donate:hover {
+      background: #0e4b63;
+      transform: scale(1.02);
+    }
+
+    /* ============================================ */
+    /* ENHANCED SEMESTER & SUBJECTS STYLES - More Professional & User Friendly */
+    /* ============================================ */
+    
+    /* Semester Section Header */
+    .semester-section-header {
+      margin: 2rem 0 1.5rem 0;
+      text-align: center;
+    }
+    
+    .semester-section-header h2 {
+      font-size: 1.8rem;
+      color: #0f2b3d;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 12px;
+    }
+    
+    .semester-section-header h2:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: #f9b43a;
+      border-radius: 3px;
+    }
+    
+    .semester-section-header p {
+      color: #5a6e7c;
+      margin-top: 12px;
+      font-size: 0.95rem;
+    }
+    
+    /* Semester Grid Layout */
+    .semester-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+    
+    /* Enhanced Semester Card */
+    .semester-card {
+      background: white;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+      border: 1px solid #e8edf2;
+    }
+    
+    .semester-card:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+    }
+    
+    /* Semester Header Button */
+    .semester-header-btn {
+      width: 100%;
+      background: linear-gradient(135deg, #ffffff, #fafcfd);
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: none;
+      border-left: 5px solid #1f6e8c;
+      transition: all 0.2s;
+      font-size: 1rem;
+    }
+    
+    .semester-header-btn:hover {
+      background: linear-gradient(135deg, #f5f9fc, #eef3f8);
+    }
+    
+    .semester-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .semester-icon {
+      font-size: 1.8rem;
+    }
+    
+    .semester-title h3 {
+      font-size: 1.3rem;
+      color: #1a4b6e;
+      font-weight: 700;
+    }
+    
+    .semester-badge {
+      background: #eef2ff;
+      color: #1f6e8c;
+      padding: 4px 12px;
+      border-radius: 30px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    
+    .toggle-arrow {
+      font-size: 1.3rem;
+      color: #1f6e8c;
+      transition: transform 0.2s;
+    }
+    
+    .semester-header-btn.active .toggle-arrow {
+      transform: rotate(180deg);
+    }
+    
+    /* Semester Content Panel */
+    .semester-content-panel {
+      padding: 0 1.5rem;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      background: #ffffff;
+    }
+    
+    .semester-content-panel.open {
+      max-height: 2000px;
+      padding: 1.2rem 1.5rem 1.5rem 1.5rem;
+      border-top: 1px solid #eef2f6;
+    }
+    
+    /* Subjects Grid */
+    .subjects-enhanced-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1.2rem;
+    }
+    
+    /* Enhanced Subject Card */
+    .subject-enhanced-card {
+      background: #ffffff;
+      border: 1px solid #e9eef3;
+      border-radius: 0.9rem;
+      padding: 1rem;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+    
+    .subject-enhanced-card:hover {
+      border-color: #cde3ed;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+      transform: translateY(-2px);
+    }
+    
+    .subject-title-enhanced {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #0f3b4f;
+      padding-left: 10px;
+      border-left: 3px solid #f9b43a;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .resource-group-enhanced {
+      margin: 10px 0;
+    }
+    
+    .resource-group-enhanced h4 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: #6c8ea0;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .resource-links-enhanced {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    
+    .resource-link {
+      text-decoration: none;
+      font-size: 0.73rem;
+      background: #f4f8fc;
+      padding: 4px 10px;
+      border-radius: 30px;
+      color: #1f6e8c;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .resource-link:hover {
+      background: #f9b43a;
+      color: #1e2a3e;
+      transform: translateY(-1px);
+    }
+    
+    .small-badge {
+      background: #eef2ff;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-size: 0.65rem;
+      color: #1f5e7e;
+    }
+    
+    /* Empty state message */
+    .empty-resources-msg {
+      font-size: 0.7rem;
+      color: #94a3b8;
+      font-style: italic;
+      padding: 4px 0;
+    }
+
+    /* Notice Board */
+    .notice-board {
+      background: #fff7e8;
+      border-left: 6px solid #f9b43a;
+      border-radius: 1rem;
+      padding: 1.2rem 1.5rem;
+      margin: 2rem 0;
+    }
+    .notice-list {
+      list-style: none;
+      margin-top: 0.8rem;
+    }
+    .notice-list li {
+      margin: 0.6rem 0;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px dashed #ffdd99;
+    }
+
+    /* Contact Form */
+    .contact-card, .disclaimer-card {
+      background: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.03);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      font-family: inherit;
+      transition: 0.2s;
+    }
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #1f6e8c;
+      box-shadow: 0 0 0 3px rgba(31,110,140,0.1);
+    }
+    button {
+      background: #1f6e8c;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.8rem;
+      border-radius: 2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background: #0e5a74;
+      transform: translateY(-1px);
+    }
+    footer {
+      background: #0f2b3d;
+      color: #b9d0e0;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    .spinner {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border: 3px solid #f3f3f3;
+      border-top: 3px solid #1f6e8c;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @media (max-width: 680px) {
+      .container { padding: 0 15px; }
+      .subjects-enhanced-grid { grid-template-columns: 1fr; }
+      .hero h2 { font-size: 1.4rem; }
+      .hero { padding: 2rem 0; }
+      .semester-title h3 { font-size: 1rem; }
+      .semester-header-btn { padding: 0.8rem 1rem; }
+    }
+    .toast-msg {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #1f7a4a;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 40px;
+      font-size: 0.9rem;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      animation: fadeInUp 0.3s ease;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container header-flex">
+    <div class="logo">
+      <h1>💻 BCSIT Hub</h1>
+    </div>
+    <div class="nav-links">
+      <a href="#" class="active">Home</a>
+      <a href="#semesters-wrapper">Semesters</a>
+      <a href="#support">Support</a>
+      <a href="#notices">Notices</a>
+      <a href="#contact">Request</a>
+      <a href="#disclaimer">Disclaimer</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<div class="hero">
+  <div class="container">
+    <h2>Pokhara University</h2>
+    <img src="images/images.png" alt="BCSIT Hub Logo" width="120px" style="margin: 15px 0;">
+    <h3>Bachelor of Computer Science and Information Technology (BCSIT)</h3>
+    <p>Complete study portal for BCSIT students. 🎓</p>
+   </div>
+</div>
+
+<div class="container">
+  <div id="semesters-wrapper">
+    <div class="semester-section-header">
+      <h2>📚 Semester-wise Subjects & Resources</h2>
+      <p>Click on any semester to access detailed notes, important questions & previous year papers</p>
+    </div>
+    <div id="semesters-container"></div>
+  </div>
+
+  <div id="notices" class="notice-board">
+    <h3><i class="fas fa-bullhorn"></i> Latest Notices for BCSIT Students</h3>
+    <ul class="notice-list">
+        </ul>
+  </div>
+
+  <!-- Contact Form -->
+  <div id="contact" class="contact-card">
+    <h2><i class="fas fa-envelope"></i> Request Notes / Missing Question Papers</h2>
+    <p>If any unit notes or previous year paper is missing, let us know we will upload within 24-48 hours.</p>
+    <div id="loadingIndicator" style="display: none; text-align: center; padding: 15px;">
+      <div class="spinner"></div>
+      <p>Sending request...</p>
+    </div>
+    <form id="contactForm">
+      <input type="text" id="fullname" placeholder="Your Full Name *" required>
+      <input type="email" id="emailid" placeholder="Your Email Address *" required>
+      <textarea id="msg" rows="3" placeholder="e.g., Need 4th semester DCN unit 3 notes and 2024 question paper..." required></textarea>
+      <button type="submit" id="submitBtn"><i class="fas fa-paper-plane"></i> Send Request</button>
+      <p id="formFeedback" style="margin-top: 12px; font-size:0.9rem;"></p>
+    </form>
+  </div>
+
+  <!-- Support Section -->
+  <div id="support" class="support-section">
+    <h2> Support BCSIT Hub – Keep it Free</h2>
+    <p>Your donation helps us maintain servers, create more notes, and add question papers.</p>
+    <div class="support-flex">
+      <div class="esewa-card">
+        <h3><i class="fas fa-qrcode"></i> eSewa QR</h3>
+        <div class="qr-placeholder">
+          <img src="images/esewa.jpeg" width="200px" alt="eSewa QR Code" height="200px" style="max-width:100%; height:auto;">
+        </div>
+        <div class="esewa-id"><i class="fas fa-id-card"></i> eSewa ID: 9748835404</div>
+        <p style="font-size:0.7rem; margin-top:8px;">Scan QR or use ID to support</p>
+      </div>
+      <div class="support-message">
+        <p><strong>Why support?</strong></p>
+        <p>✅ Add more unit-wise notes for every subject</p>
+        <p>✅ Upload previous year solved papers (2018-2025)</p>
+        <p>✅ Keep this platform ad-free for all BCSIT students</p>
+        <p>✅ Server & domain cost for nirmalbhusal.com.np</p>
+        <button class="btn-donate" id="copyEsewaBtn"><i class="fas fa-copy"></i> Copy eSewa ID</button>
+        <span id="copyFeedback" style="margin-left: 10px;"></span>
+      </div>
+    </div>
+  </div>
+
+  <div id="disclaimer" class="disclaimer-card">
+    <h3><i class="fas fa-balance-scale"></i> Disclaimer</h3>
+    <p style="text-align: center;">BCSIT Hub is an independent student initiative. Not officially affiliated with Pokhara University. Materials for educational purposes. Support is optional but appreciated.</p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 BCSIT Hub — Nirmal Bhusal | Complete study portal for Pokhara University BCSIT students.</p>
+</footer>
+
+<!-- EmailJS Library -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+  (function() {
+    emailjs.init("gjJrM1bjA50iaaVjH");
+  })();
+
+  function showToast(message, isError = false) {
+    const toast = document.createElement('div');
+    toast.className = 'toast-msg';
+    toast.style.background = isError ? '#c0392b' : '#1f7a4a';
+    toast.innerHTML = message;
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 4000);
+  }
+
+  const requestLog = new Map();
+  function isRateLimited(identifier) {
+    const now = Date.now();
+    const requests = requestLog.get(identifier) || [];
+    const recent = requests.filter(t => now - t < 3600000);
+    if (recent.length >= 5) return true;
+    recent.push(now);
+    requestLog.set(identifier, recent);
+    return false;
+  }
+
+  function containsSpam(text) {
+    const spamPatterns = [/http[s]?:\/\//i, /crypto|bitcoin|casino|viagra|porn/i];
+    return spamPatterns.some(p => p.test(text));
+  }
+
+  let csrfToken = Math.random().toString(36).substring(2);
+  sessionStorage.setItem('csrfToken', csrfToken);
+
+  const contactForm = document.getElementById('contactForm');
+  const feedbackEl = document.getElementById('formFeedback');
+  const submitBtn = document.getElementById('submitBtn');
+  const loadingIndicator = document.getElementById('loadingIndicator');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      feedbackEl.innerHTML = '';
+      
+      const storedToken = sessionStorage.getItem('csrfToken');
+      if (storedToken !== csrfToken) {
+        feedbackEl.innerHTML = '❌ Security validation failed. Please refresh.';
+        feedbackEl.style.color = '#b91c1c';
+        return;
+      }
+
+      const name = document.getElementById('fullname').value.trim();
+      const email = document.getElementById('emailid').value.trim();
+      const message = document.getElementById('msg').value.trim();
+
+      if (name.length < 2) {
+        feedbackEl.innerHTML = '❌ Please enter your full name (min 2 characters).';
+        feedbackEl.style.color = '#b91c1c';
+        return;
+      }
+      if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+        feedbackEl.innerHTML = '❌ Please enter a valid email address.';
+        feedbackEl.style.color = '#b91c1c';
+        return;
+      }
+      if (message.length < 10) {
+        feedbackEl.innerHTML = '❌ Please provide a detailed request (min 10 characters).';
+        feedbackEl.style.color = '#b91c1c';
+        return;
+      }
+      if (containsSpam(message) || containsSpam(name)) {
+        feedbackEl.innerHTML = '❌ Message contains suspicious content.';
+        feedbackEl.style.color = '#b91c1c';
+        return;
+      }
+      if (isRateLimited(email)) {
+        feedbackEl.innerHTML = '❌ Too many requests. Please wait an hour.';
+        feedbackEl.style.color = '#b91c1c';
+        return;
+      }
+
+      const templateParams = {
+        from_name: name,
+        from_email: email,
+        message: message,
+        request_time: new Date().toLocaleString('en-US', { timeZone: 'Asia/Kathmandu' })
+      };
+
+      const SERVICE_ID = 'service_5ysey2k'; 
+      const TEMPLATE_ID = 'template_ia57prc'; 
+      
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<i class="fas fa-spinner fa-pulse"></i> Sending...';
+      loadingIndicator.style.display = 'block';
+
+      try {
+        const response = await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams);
+        if (response.status === 200) {
+          feedbackEl.innerHTML = '✅ Request sent successfully! We will add missing resources within 24-48 hours.';
+          feedbackEl.style.color = '#1f7a4a';
+          contactForm.reset();
+          csrfToken = Math.random().toString(36).substring(2);
+          sessionStorage.setItem('csrfToken', csrfToken);
+          showToast('📬 Request sent! Thank you.', false);
+        } else {
+          throw new Error('Email send failed');
+        }
+      } catch (err) {
+        console.error('EmailJS Error:', err);
+        feedbackEl.innerHTML = '❌ Failed to send request. Please try later or contact directly: nirmalbhusal239@gmail.com';
+        feedbackEl.style.color = '#b91c1c';
+        showToast('❌ Failed to send. Please try again.', true);
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Request';
+        loadingIndicator.style.display = 'none';
+        setTimeout(() => {
+          if (feedbackEl.innerHTML.includes('successfully')) feedbackEl.innerHTML = '';
+        }, 5000);
+      }
+    });
+  }
+
+  const copyBtn = document.getElementById('copyEsewaBtn');
+  const copyFeedbackSpan = document.getElementById('copyFeedback');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', () => {
+      const esewaId = "9748835404";
+      navigator.clipboard.writeText(esewaId).then(() => {
+        copyFeedbackSpan.innerHTML = '✅ Copied!';
+        setTimeout(() => copyFeedbackSpan.innerHTML = '', 2000);
+      }).catch(() => {
+        copyFeedbackSpan.innerHTML = '⚠️ Copy manually';
+      });
+    });
+  }
+
+  // Enhanced BCSIT Data
+  const bcsitData = [
+    { semester: 1, subjects: [ { name: "Programming Language (C)", notes: [{ title: "Unit 1: C Fundamentals", link: "#" }, { title: "Unit 2: Arrays & Functions", link: "#" }, { title: "Unit 3: Pointers", link: "#" }], questions: [{ title: "Imp Questions Solved", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }, { title: "2023 Paper", link: "#" }] },
+      { name: "Mathematics I", notes: [{ title: "Unit 1: Calculus", link: "#" }, { title: "Unit 2: Geometry", link: "#" }], questions: [{ title: "Important Qs", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] },
+      { name: "Fundamentals of Computer", notes: [{ title: "Unit 1: Computer Basics", link: "#" }], questions: [{ title: "Exam Q&A", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] },
+      { name: "Internet Technology I", notes: [{ title: "Unit 1: Web Basics", link: "#" }, { title: "Unit 2: HTML/CSS", link: "#" }], questions: [{ title: "Important Qs", link: "#" }], previousPaper: [{ title: "2023 Paper", link: "#" }] },
+      { name: "English for IT", notes: [{ title: "Unit 1: Technical Writing", link: "#" }], questions: [{ title: "Model Qs", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] } ] },
+    { semester: 2, subjects: [ { name: "OOP (Java)", notes: [{ title: "Unit 1: OOP Concepts", link: "#" }, { title: "Unit 2: Inheritance", link: "#" }], questions: [{ title: "Imp Qs", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] },
+      { name: "Data Structures", notes: [{ title: "Unit 1: Arrays & Lists", link: "#" }, { title: "Unit 2: Trees", link: "#" }], questions: [{ title: "Algorithm Qs", link: "#" }], previousPaper: [{ title: "2023 Paper", link: "#" }] },
+      { name: "Mathematics II", notes: [{ title: "Linear Algebra", link: "#" }], questions: [{ title: "Imp Qs", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] },
+      { name: "Digital System", notes: [{ title: "Boolean Algebra", link: "#" }], questions: [{ title: "Important", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] } ] },
+    { semester: 3, subjects: [ { name: "DBMS", notes: [{ title: "ER Model", link: "#" }, { title: "SQL", link: "#" }], questions: [{ title: "SQL Queries", link: "#" }], previousPaper: [{ title: "2023 Paper", link: "#" }] },
+      { name: "OOAD", notes: [{ title: "UML Diagrams", link: "#" }], questions: [{ title: "Imp Qs", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] },
+      { name: "Internet Technology II", notes: [{ title: "JavaScript/PHP", link: "#" }], questions: [{ title: "Important", link: "#" }], previousPaper: [{ title: "2023 Paper", link: "#" }] } ] },
+    { semester: 4, subjects: [ { name: "Computer Architecture", notes: [{ title: "CPU Design", link: "#" }], questions: [{ title: "Imp Qs", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] },
+      { name: "DCN", notes: [{ title: "OSI Model", link: "#" }, { title: "IP Addressing", link: "#" }], questions: [{ title: "Important", link: "#" }], previousPaper: [{ title: "2023 Paper", link: "#" }] },
+      { name: "Software Engineering", notes: [{ title: "SDLC", link: "#" }], questions: [{ title: "Imp Qs", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] } ] },
+    { semester: 5, subjects: [ { name: "AI", notes: [{ title: "Search Algorithms", link: "#" }], questions: [{ title: "Important", link: "#" }], previousPaper: [{ title: "2023 Paper", link: "#" }] },
+      { name: "Operating Systems", notes: [{ title: "Process Scheduling", link: "#" }], questions: [{ title: "Imp Qs", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] } ] },
+    { semester: 6, subjects: [ { name: "Cloud Computing", notes: [{ title: "Virtualization", link: "#" }], questions: [{ title: "Important", link: "#" }], previousPaper: [{ title: "2023 Paper", link: "#" }] },
+      { name: "Computer Graphics", notes: [{ title: "Graphics Pipeline", link: "#" }], questions: [{ title: "Imp Qs", link: "#" }], previousPaper: [{ title: "2022 Paper", link: "#" }] } ] },
+    { semester: 7, subjects: [ { name: "Information Security", notes: [{ title: "Cryptography", link: "#" }], questions: [{ title: "Important", link: "#" }], previousPaper: [{ title: "2023 Paper", link: "#" }] },
+      { name: "Major Project", notes: [{ title: "Guidelines", link: "#" }], questions: [{ title: "Viva Qs", link: "#" }], previousPaper: [{ title: "Sample Report", link: "#" }] } ] },
+    { semester: 8, subjects: [ { name: "Cyber Law", notes: [{ title: "Cyber Law Basics", link: "#" }], questions: [{ title: "Important", link: "#" }], previousPaper: [{ title: "2023 Paper", link: "#" }] },
+      { name: "Internship", notes: [{ title: "Report Format", link: "#" }], questions: [{ title: "Interview Qs", link: "#" }], previousPaper: [{ title: "Sample Log", link: "#" }] } ] }
+  ];
+
+  function renderResourceBlock(title, items, icon) {
+    if (!items || items.length === 0) return `<div class="empty-resources-msg">${icon} No ${title.toLowerCase()} available yet</div>`;
+    let html = `<div class="resource-group-enhanced"><h4>${icon} ${title}</h4><div class="resource-links-enhanced">`;
+    items.forEach(item => { html += `<a href="${item.link}" target="_blank" class="resource-link">📄 ${escapeHtml(item.title)}</a>`; });
+    html += `</div></div>`;
+    return html;
+  }
+  
+  function escapeHtml(str) { return str.replace(/[&<>]/g, function(m) { return m === '&' ? '&amp;' : m === '<' ? '&lt;' : '&gt;'; }); }
+
+  function renderSemesters() {
+    const container = document.getElementById('semesters-container');
+    if (!container) return;
+    container.innerHTML = '';
+    
+    bcsitData.forEach((sem, idx) => {
+      const semCard = document.createElement('div'); semCard.className = 'semester-card';
+      
+      const headerBtn = document.createElement('button'); headerBtn.className = 'semester-header-btn';
+      headerBtn.innerHTML = `
+        <div class="semester-title">
+          <span class="semester-icon">📘</span>
+          <h3>Semester ${sem.semester}</h3>
+          <span class="semester-badge">BCSIT • Pokhara University</span>
+        </div>
+        <span class="toggle-arrow">▼</span>
+      `;
+      
+      const contentPanel = document.createElement('div'); contentPanel.className = 'semester-content-panel';
+      const grid = document.createElement('div'); grid.className = 'subjects-enhanced-grid';
+      
+      sem.subjects.forEach(sub => {
+        const card = document.createElement('div'); card.className = 'subject-enhanced-card';
+        let inner = `<div class="subject-title-enhanced"><i class="fas fa-book-open" style="color:#f9b43a; font-size:0.8rem;"></i> ${escapeHtml(sub.name)}</div>`;
+        inner += renderResourceBlock("Unit-wise Notes", sub.notes, "📖");
+        inner += renderResourceBlock("Important Questions", sub.questions, "⭐");
+        inner += renderResourceBlock("Previous Year Papers", sub.previousPaper, "📜");
+        inner += `<div style="margin-top: 8px;"><span class="small-badge"><i class="far fa-check-circle"></i> PU Syllabus Aligned</span></div>`;
+        card.innerHTML = inner;
+        grid.appendChild(card);
+      });
+      
+      contentPanel.appendChild(grid);
+      semCard.appendChild(headerBtn);
+      semCard.appendChild(contentPanel);
+      container.appendChild(semCard);
+      
+      let isOpen = idx === 0;
+      if (isOpen) {
+        contentPanel.classList.add('open');
+        headerBtn.classList.add('active');
+      }
+      
+      headerBtn.addEventListener('click', () => {
+        const isCurrentlyOpen = contentPanel.classList.contains('open');
+        document.querySelectorAll('.semester-content-panel').forEach(panel => panel.classList.remove('open'));
+        document.querySelectorAll('.semester-header-btn').forEach(btn => btn.classList.remove('active'));
+        if (!isCurrentlyOpen) {
+          contentPanel.classList.add('open');
+          headerBtn.classList.add('active');
+        }
+      });
+    });
+  }
+  renderSemesters();
+
+  document.querySelectorAll('.nav-links a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href === '#') { e.preventDefault(); window.scrollTo({top:0, behavior:'smooth'}); }
+      else if (href.startsWith('#')) {
+        e.preventDefault();
+        const target = document.getElementById(href.substring(1));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      document.querySelectorAll('.nav-links a').forEach(l => l.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
